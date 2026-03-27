@@ -1,6 +1,6 @@
 # Iteration 1 (TODO)
 
-Ask the user for a type of sandwich (chicken $5.25, beef $6.25, tofu $5.75).
+Ask the user for a size of pizza small  $5.25, large  $6.25, extra large $5.75).
 
 Have the program output the user’s sandwich selection to verify that the program is working correctly.
 
@@ -8,7 +8,6 @@ Have the program output the user’s sandwich selection to verify that the progr
 
 
 Ask the user whether they would like a beverage (yes, no).
-
 
 If they say yes, ask what size beverage they would like:
 small $1.00
