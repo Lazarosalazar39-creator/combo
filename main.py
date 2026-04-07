@@ -6,19 +6,33 @@ def orderPizza():
     pizza_size= input("would you like 6, 8, or 10 slice pizza pie?")
     if pizza_size == "6":
         print("small pizza, comin up")
+        return 2.0
     elif pizza_size == "8":
         print("medium pizza, comin up")
+        return 10.0
     elif pizza_size == "10":
         print("large pizza, comin up")
+        return 15.0
     else:
         print("¿Que?")
-    # TODO: ask for toppings
-    print(pizza_size)
+        return 0
+    # TODO: ask for toppings (extra credit)
+
+def orderGarlicKnots():
+    # TODO
+    pass
+
+def orderDrink():
+    # TODO
+    pass
 
 def main():
     greetings()
-    orderPizza()
-
+    orderCost = 0.0
+    orderCost += orderPizza()
+    orderGarlicKnots()
+    orderDrink()
+    print(f"Order total is: ${orderCost}")
 
 if __name__ == "__main__":
     main()
